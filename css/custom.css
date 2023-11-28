@@ -1,0 +1,69 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    color: #E7E9EA;
+}
+
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-color:  #0A1A2A;
+}
+
+.card{
+    background-color: #0A1A2A;
+    color: #E7E9EA;
+}
+
+.navbar-nav{
+    --bs-nav-link-hover-color: white;
+}
+
+.navbar-toggler, .navbar-light{
+    color: #E7E9EA;
+    border-color: #E7E9EA;
+}
+
+.btn-outline-dark{
+    background-color: #E7E9EA;
+}
+
+.navbar{
+    font-size: 18px;
+}
+
+.nav-link{
+    color: #E7E9EA;
+}
+
+main {
+    flex: 1 0 auto;
+    font-family:serif;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+.color-overlay {
+    min-height: 60vh;
+}
+
+.singleCol {
+    max-width: 750px;
+}
+
+@media (max-width: 767.98px) {
+    .color-overlay {
+        min-height: 30vh;
+    }
+}
